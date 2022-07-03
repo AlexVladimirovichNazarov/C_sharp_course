@@ -5,8 +5,8 @@
 
 void Weekend(int num)
 {
-    string text = "no";
-   if (num == 6 || num == 7) text = "eys";
+    string text = "no"; // вводитьься переменная флага
+   if (num == 6 || num == 7) text = "eys"; // флаг меняет осстояние!
     {
         Console.WriteLine($"{num} -> {text}");
     }
