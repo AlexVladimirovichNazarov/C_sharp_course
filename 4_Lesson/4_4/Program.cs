@@ -6,7 +6,7 @@ void Array()
 for (int i =1; i < 8; i++)
 {
     array[i] = new Random().Next(0, 2);
-    Console.Write(array[i]);
+    Console.Write($"{array[i]} ");
 }
 }
 
