@@ -32,5 +32,6 @@ Console.WriteLine();
 }
 int[] arr_1 = MassNums(12);
 Print(arr_1);
+
 ChangeNum(arr_1);
 Print(arr_1);
